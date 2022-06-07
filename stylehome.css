@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: "Arial", sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+  } 
+.home
+{
+background-image: url(resturant.jpg);
+height:100vh;
+background-size:cover;
+background-position:center;
+}
+ul {
+list-style-type: none;	
+padding: 0;
+margin-top: 0;
+overflow: hidden;
+background-color:rgba(0, 0, 0, 0.7); 
+}
+ul li a{
+	float:right;
+	text-decoration: none;
+	color: white;
+	padding: 10px 15px;
+}
+ul li a:hover {
+	background-color: gray; opacity:1;
+}
+.label {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left:38%;
+  transform: (-50%,-50%);
+  text-align: center;
+  text-shadow: 1px 1px #000000;
+  padding: 8px;
+}
+h2,#bottomlabel
+{
+	font-family: "Brush Script MT", Cursive;
+	font-weight: normal;
+	font-size: 30px;
+	letter-spacing: 1.5px;
+}
+#toplabel
+{
+font-family: "Arial", sans-serif;
+font-weight: normal;
+font-size: 27px;
+letter-spacing: 1px;
+}
+.btn{
+	
+	display: inline-block;
+    top: 62%;
+    left:43%;
+	position: absolute; 
+}
+button, #btn1 
+{ 
+ font-size: 15px;
+ padding: 15px 15px;
+ background-color: #c7a77f; 
+ cursor: pointer;
+ border: none;
+}
+#btn2
+{
+ background-color: #ffffffff; 
+}
+#btn1:hover
+{
+  background-color: #a17a4b;;
+}
+#btn2:hover
+{
+  background-color: rgb(206, 206, 206);
+}
+#learn
+{
+	color: black;
+	text-align:center;
+	width: 57.5%;
+	padding-left: 20.5%;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 19px;
+}
+
+#learn::first-line
+{   
+	line-height: 2.2;
+	font-weight:bold;
+	font-size: 24px;
+}

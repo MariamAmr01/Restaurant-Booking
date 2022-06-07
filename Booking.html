@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <link rel="stylesheet" type="text/css" href="style2.css">
+  </head>
+  <body>
+  	<header>
+      <a href="Home.html">
+      <button type="button" id="btn">
+       &laquo; back 
+      </button>
+      </a>
+    <h2> Booking form</h2>
+    <div class="form">
+     <form>
+      <label for="user_name">Username: </label>
+      <input type="text" id="user_name" name="user_name" placeholder="Mariam Amr">
+       
+      <br><br>
+
+      <label for="quantity">Number of persons</label>
+      <input type="number" id="quantity" name="quantity" min="1" max="99" value="1">
+    
+      <br><br>
+
+      <label for="appt">Time: </label>
+      <input type="time" id="appt" name="appt">
+
+      <br><br>
+
+      <label for="date">Date: </label>
+      <input type="date" id="date" name="date">
+
+      
+      <br><br>
+
+      <label for="payment">Payment way: </label>
+
+      <select id="payment" name="payment">
+        <option value="visa">Visa</option>
+        <option value="mastercard">Mastercard</option>
+        <option value="cash">Cash</option>
+      </select>
+      <br><br>
+
+      <input type="submit">
+
+    </form>
+    </div>
+    </header>
+  </body>
+</html>
